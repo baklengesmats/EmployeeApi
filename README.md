@@ -10,6 +10,8 @@ The password for both the users are "test123" in the json is hashed.
 Use the http://localhost:5000/api/Auth endpoint to fetch the jwt bearer token. 
 Use the jwt bearer token the ruqeust header. Can be used in swagger or postman. 
 In swagger it need to be passed in into the autherize button on the right of the swagger page.
+There is also a Employee API.postman_collection.json to import in your postman if you want to 
+test the endpoints from there.
 
 
 ## Endpoints
@@ -51,6 +53,7 @@ regular user (username: test2@test.se, password: test123)
 1. In the project folder, run "dotnet restore" to restore dependencies.
 2. In the same project folder "dotnet build" to build the project.
 3. To run the api, run "dotnet run" in the project folder.
+4. To run the test, run "dotnet test" in the project folder.
 
 
 ## Key Points
